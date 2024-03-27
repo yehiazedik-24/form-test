@@ -12,7 +12,7 @@ for(var i =1980 ; i <=2024; i++){
 
 yearSelector.innerHTML = options ; 
 // month
-var yearSelector = document.getElementById('month')
+var monthSelector = document.getElementById('month')
 
 
 var options ='';
@@ -24,10 +24,10 @@ for(var i =1 ; i <=12; i++){
 
 
 
-yearSelector.innerHTML = options ;
+monthSelector.innerHTML = options ;
 
 // days
-var yearSelector = document.getElementById('day')
+var daySelector = document.getElementById('day')
 
 
 var options ='';
@@ -39,4 +39,4 @@ for(var i =1 ; i <=31; i++){
 
 
 
-yearSelector.innerHTML = options ;
+daySelector.innerHTML = options ;
